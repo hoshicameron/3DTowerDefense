@@ -4,155 +4,6 @@
     <list default="true" id="cd98e2b9-b962-4b16-9f91-c1f6db6622c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3DTowerDefense/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3DTowerDefense/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3DTowerDefense/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3DTowerDefense/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/detail_crystalLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/detail_crystalLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/detail_dirt.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/detail_dirt.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/detail_dirtLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/detail_dirtLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/detail_rocks.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/detail_rocks.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/detail_rocksLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/detail_rocksLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/detail_tree.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/detail_tree.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/detail_treeLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/detail_treeLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/enemy_ufoGreen.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/enemy_ufoGreen.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/enemy_ufoGreenWeapon.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/enemy_ufoGreenWeapon.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/enemy_ufoPurple.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/enemy_ufoPurple.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/enemy_ufoPurpleWeapon.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/enemy_ufoPurpleWeapon.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/enemy_ufoRed.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/enemy_ufoRed.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/enemy_ufoRedWeapon.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/enemy_ufoRedWeapon.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/enemy_ufoYellow.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/enemy_ufoYellow.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/enemy_ufoYellowWeapon.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/enemy_ufoYellowWeapon.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_detail_crystal.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_detail_crystal.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_detail_crystalLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_detail_crystalLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_detail_dirt.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_detail_dirt.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_detail_dirtLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_detail_dirtLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_detail_rocks.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_detail_rocks.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_detail_rocksLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_detail_rocksLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_detail_tree.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_detail_tree.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_detail_treeLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_detail_treeLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_bump.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_bump.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_cornerInner.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_cornerInner.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_cornerLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_cornerLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_cornerOuter.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_cornerOuter.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_cornerRound.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_cornerRound.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_cornerSquare.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_cornerSquare.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_crossing.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_crossing.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_crystal.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_crystal.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_end.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_end.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_endRound.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_endRound.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_endRoundSpawn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_endRoundSpawn.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_endSpawn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_endSpawn.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_hill.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_hill.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_riverBridge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_riverBridge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_riverCorner.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_riverCorner.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_riverFall.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_riverFall.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_riverSlope.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_riverSlope.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_riverSlopeLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_riverSlopeLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_riverStraight.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_riverStraight.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_riverTransition.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_riverTransition.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_rock.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_rock.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_slope.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_slope.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_spawn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_spawn.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_spawnRound.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_spawnRound.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_split.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_split.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_straight.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_straight.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_straightHill.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_straightHill.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_straightHillLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_straightHillLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_transition.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_transition.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_tree.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_tree.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_treeDouble.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_treeDouble.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_treeQuad.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_treeQuad.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_wideCorner.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_wideCorner.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_wideSplit.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_wideSplit.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_wideStraight.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_wideStraight.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_tile_wideTransition.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_tile_wideTransition.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_woodStructure.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_woodStructure.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/snow_woodStructure_high.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/snow_woodStructure_high.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_bump.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_bump.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_cornerInner.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_cornerInner.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_cornerLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_cornerLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_cornerOuter.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_cornerOuter.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_cornerRound.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_cornerRound.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_cornerSquare.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_cornerSquare.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_crossing.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_crossing.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_crystal.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_crystal.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_dirt.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_dirt.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_dirtHigh.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_dirtHigh.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_end.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_end.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_endRound.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_endRound.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_endRoundSpawn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_endRoundSpawn.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_endSpawn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_endSpawn.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_hill.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_hill.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_riverBridge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_riverBridge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_riverCorner.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_riverCorner.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_riverFall.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_riverFall.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_riverSlope.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_riverSlope.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_riverSlopeLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_riverSlopeLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_riverStraight.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_riverStraight.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_riverTransition.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_riverTransition.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_rock.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_rock.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_slope.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_slope.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_spawn.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_spawn.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_spawnRound.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_spawnRound.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_split.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_split.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_straight.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_straight.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_straightHill.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_straightHill.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_straightHillLarge.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_straightHillLarge.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_transition.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_transition.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_tree.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_tree.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_treeDouble.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_treeDouble.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_treeQuad.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_treeQuad.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_wideCorner.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_wideCorner.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_wideSplit.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_wideSplit.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_wideStraight.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_wideStraight.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/tile_wideTransition.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/tile_wideTransition.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_base.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_base.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_bottomA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_bottomA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_bottomB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_bottomB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_bottomC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_bottomC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_crystals.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_crystals.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_middleA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_middleA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_middleB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_middleB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_middleC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_middleC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_roofA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_roofA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_roofB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_roofB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_roofC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_roofC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_sampleA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_sampleA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_sampleB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_sampleB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_sampleC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_sampleC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_sampleD.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_sampleD.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_sampleE.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_sampleE.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_sampleF.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_sampleF.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_topA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_topA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_topB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_topB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerRound_topC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerRound_topC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_bottomA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_bottomA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_bottomB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_bottomB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_bottomC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_bottomC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_middleA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_middleA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_middleB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_middleB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_middleC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_middleC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_roofA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_roofA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_roofB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_roofB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_roofC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_roofC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleD.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleD.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleE.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleE.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleF.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_sampleF.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_topA.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_topA.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_topB.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_topB.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/towerSquare_topC.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/towerSquare_topC.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/weapon_ballista.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/weapon_ballista.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/weapon_blaster.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/weapon_blaster.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/weapon_cannon.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/weapon_cannon.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/weapon_catapult.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/weapon_catapult.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/woodStructure.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/woodStructure.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Models/woodStructure_high.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/woodStructure_high.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -179,26 +30,43 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnapToGrid.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CubeEditor.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="704">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="-427">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="24" />
               <folding>
-                <marker date="1644173930453" expanded="false" signature="6:31" ph="..." />
-                <marker date="1644173930453" expanded="true" signature="92:866" ph="{...}" />
-                <marker date="1644173930453" expanded="true" signature="309:367" ph="{...}" />
-                <marker date="1644173930453" expanded="true" signature="386:864" ph="{...}" />
+                <marker date="1644185947721" expanded="false" signature="6:31" ph="..." />
+                <marker date="1644185947721" expanded="true" signature="145:1083" ph="{...}" />
+                <marker date="1644185947721" expanded="true" signature="358:504" ph="{...}" />
+                <marker date="1644185947721" expanded="true" signature="523:642" ph="{...}" />
+                <marker date="1644185947721" expanded="true" signature="674:879" ph="{...}" />
+                <marker date="1644185947721" expanded="true" signature="910:1081" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Waypoint.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <marker date="1644185596219" expanded="false" signature="6:78" ph="..." />
+                <marker date="1644185596219" expanded="true" signature="117:487" ph="{...}" />
+                <marker date="1644185596219" expanded="true" signature="223:260" ph="{...}" />
+                <marker date="1644185596219" expanded="true" signature="301:485" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="176">
+              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
               <folding>
                 <marker date="1644174691688" expanded="false" signature="6:97" ph="..." />
                 <marker date="1644174691688" expanded="true" signature="141:616" ph="{...}" />
@@ -218,9 +86,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Waypoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Farming Simulator/Assets/Scripts/Misc/SingletonMonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnapToGrid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeEditor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -228,6 +97,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SnapToGrid.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Waypoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CubeEditor.cs" />
       </list>
     </option>
   </component>
@@ -288,12 +159,12 @@
       <option name="presentableId" value="Default" />
       <updated>1644129704868</updated>
       <workItem from="1644129714884" duration="5062000" />
-      <workItem from="1644169510809" duration="2207000" />
+      <workItem from="1644169510809" duration="5377000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7269000" />
+    <option name="totallyTimeSpent" value="10439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,7 +176,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
@@ -387,6 +258,21 @@
     <entry file="file://$PROJECT_DIR$/../Farming Simulator/Assets/Scripts/Misc/SingletonMonoBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <marker date="1644174691688" expanded="false" signature="6:97" ph="..." />
+            <marker date="1644174691688" expanded="true" signature="141:616" ph="{...}" />
+            <marker date="1644174691688" expanded="true" signature="219:270" ph="{...}" />
+            <marker date="1644174691688" expanded="true" signature="320:579" ph="{...}" />
+            <marker date="1644174691688" expanded="true" signature="369:574" ph="{...}" />
+            <marker date="1644174691688" expanded="true" signature="603:614" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -402,30 +288,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SnapToGrid.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Waypoint.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="154">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
-            <marker date="1644173930453" expanded="false" signature="6:31" ph="..." />
-            <marker date="1644173930453" expanded="true" signature="92:866" ph="{...}" />
-            <marker date="1644173930453" expanded="true" signature="309:367" ph="{...}" />
-            <marker date="1644173930453" expanded="true" signature="386:864" ph="{...}" />
+            <marker date="1644185596219" expanded="false" signature="6:78" ph="..." />
+            <marker date="1644185596219" expanded="true" signature="117:487" ph="{...}" />
+            <marker date="1644185596219" expanded="true" signature="223:260" ph="{...}" />
+            <marker date="1644185596219" expanded="true" signature="301:485" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CubeEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="-427">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="24" />
           <folding>
-            <marker date="1644174691688" expanded="false" signature="6:97" ph="..." />
-            <marker date="1644174691688" expanded="true" signature="141:616" ph="{...}" />
-            <marker date="1644174691688" expanded="true" signature="219:270" ph="{...}" />
-            <marker date="1644174691688" expanded="true" signature="320:579" ph="{...}" />
-            <marker date="1644174691688" expanded="true" signature="369:574" ph="{...}" />
-            <marker date="1644174691688" expanded="true" signature="603:614" ph="{...}" />
+            <marker date="1644185947721" expanded="false" signature="6:31" ph="..." />
+            <marker date="1644185947721" expanded="true" signature="145:1083" ph="{...}" />
+            <marker date="1644185947721" expanded="true" signature="358:504" ph="{...}" />
+            <marker date="1644185947721" expanded="true" signature="523:642" ph="{...}" />
+            <marker date="1644185947721" expanded="true" signature="674:879" ph="{...}" />
+            <marker date="1644185947721" expanded="true" signature="910:1081" ph="{...}" />
           </folding>
         </state>
       </provider>
