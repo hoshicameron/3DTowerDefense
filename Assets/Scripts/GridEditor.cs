@@ -38,7 +38,6 @@ public class GridEditor : MonoBehaviour
     {
         UpdateAllTiles();
     }
-
     public void UpdateAllTiles()
     {
         TileEditor[] tiles = FindObjectsOfType<TileEditor>();
@@ -76,7 +75,6 @@ public class GridEditor : MonoBehaviour
     {
         up = right = down = left = false;
 
-        print(tileDictionary.Count);
         Vector2Int upNeighbourCoordinate = directionUp + tile.GetGridPosition();
         Vector2Int rightNeighbourCoordinate = directionRight + tile.GetGridPosition();
         Vector2Int downNeighbourCoordinate = directionDown + tile.GetGridPosition();

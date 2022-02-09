@@ -10,7 +10,7 @@ public class EnemyMovement : MonoBehaviour
    private void Start()
    {
       path = FindObjectOfType<PathFinder>().Path;
-      StartCoroutine(MoveRoutine(1.0f));
+      StartCoroutine(MoveRoutine(1.50f));
    }
 
 

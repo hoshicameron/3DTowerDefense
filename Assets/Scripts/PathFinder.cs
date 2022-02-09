@@ -82,18 +82,9 @@ public class PathFinder : MonoBehaviour
             }
         }
 
-        PrintPath();
-    }
-
-    private void PrintPath()
-    {
         path.Reverse();
-        foreach (Waypoint waypoint in path)
-        {
-            print(waypoint);
-        }
-    }
 
+    }
     private void LoadBlocks()
     {
 

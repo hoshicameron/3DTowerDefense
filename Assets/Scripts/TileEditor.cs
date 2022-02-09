@@ -40,15 +40,14 @@ public class TileEditor : MonoBehaviour
 
     void Update()
     {
-        if(transform.position==currentPosition)    return;
+        if (Vector3.Distance(transform.position, currentPosition) > Mathf.Epsilon)
+        {
+            SnapToGrid();
+            UpdateLable();
+            UpdateTile();
+        }
 
-        SnapToGrid();
 
-        UpdateLable();
-
-        //UpdateTile();
-
-        gridEditor.UpdateAllTiles();
     }
 
     private void UpdateLable()
