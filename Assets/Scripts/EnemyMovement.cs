@@ -5,17 +5,18 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-   [SerializeField] private List<GameObject> path;
+    private List<Waypoint> path;
 
    private void Start()
    {
+      path = FindObjectOfType<PathFinder>().Path;
       StartCoroutine(MoveRoutine(1.0f));
    }
 
 
    private IEnumerator MoveRoutine(float delay)
    {
-      foreach (GameObject waypoint in path)
+      foreach (Waypoint waypoint in path)
       {
          transform.position = new Vector3(waypoint.transform.position.x, transform.position.y,
             waypoint.transform.position.z);
@@ -23,8 +24,5 @@ public class EnemyMovement : MonoBehaviour
          yield return new WaitForSeconds(delay);
       }
    }
-   private void Awake()
-   {
 
-   }
 }
