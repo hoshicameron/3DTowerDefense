@@ -14,31 +14,44 @@ public class PathFinder : MonoBehaviour
     private Vector2Int[] directions ={Vector2Int.up,Vector2Int.right, Vector2Int.down, Vector2Int.left};
     private List<Waypoint> path;
 
-    public List<Waypoint> Path => path;
 
-    private bool isPathFinded = false;
+
     private void Awake()
     {
         gridDictionary=new Dictionary<Vector2Int, Waypoint>();
         waypointQueue = new Queue<Waypoint>();
         path = new List<Waypoint>();
+    }
 
+
+    public List<Waypoint> GetPath()
+    {
+        if (path.Count == 0)
+        {
+            return CalculatePath();
+        }
+
+        return path;
+    }
+
+    private List<Waypoint> CalculatePath()
+    {
         LoadBlocks();
         BreadthFirstSearch();
         CreatePath();
+        return path;
     }
 
     private void BreadthFirstSearch()
     {
         waypointQueue.Enqueue(startWaypoin);
-        while (waypointQueue.Count>0 &&!isPathFinded)
+        while (waypointQueue.Count>0 && path.Count==0)
         {
             Waypoint waypoint = waypointQueue.Dequeue();
             waypoint.IsExplored = true;
 
             if (CheckForGoal(waypoint))
             {
-                isPathFinded = true;
                 break;
             }
 

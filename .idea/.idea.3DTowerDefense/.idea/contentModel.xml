@@ -11,6 +11,7 @@
           <e p="Health.cs" t="Include" />
           <e p="PathFinder.cs" t="Include" />
           <e p="SingletonMonoBehaviour.cs" t="Include" />
+          <e p="Spawner.cs" t="Include" />
           <e p="TileEditor.cs" t="Include" />
           <e p="Tower.cs" t="Include" />
           <e p="Waypoint.cs" t="Include" />
