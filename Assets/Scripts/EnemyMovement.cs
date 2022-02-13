@@ -15,7 +15,7 @@ public class EnemyMovement : MonoBehaviour
       path = FindObjectOfType<PathFinder>().GetPath();
       //StartCoroutine(MoveRoutine(1.50f));
 
-      transform.position=transform.position = new Vector3(path[0].transform.position.x, transform.position.y,
+      transform.position = new Vector3(path[0].transform.position.x, transform.position.y,
          path[0].transform.position.z);
    }
 
@@ -29,8 +29,13 @@ public class EnemyMovement : MonoBehaviour
       if (index == path.Count ) return;
 
       float step = speed * Time.deltaTime;
-      Vector3 destinationPosition = new Vector3(path[index].transform.position.x, transform.position.y,
-         path[index].transform.position.z);
+
+      Vector3 destinationPosition = new Vector3(
+         path[index].transform.position.x,
+         transform.position.y,
+         path[index].transform.position.z
+         );
+
       transform.position=Vector3.MoveTowards(transform.position, destinationPosition, step);
 
       if (Vector3.Distance(transform.position, destinationPosition) < Mathf.Epsilon)

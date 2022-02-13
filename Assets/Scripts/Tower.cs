@@ -28,16 +28,29 @@ public class Tower : MonoBehaviour
     private void FindNewTarget()
     {
         enemies = FindObjectsOfType<EnemyMovement>();
-        target = enemies[0];
+
+        if (enemies.Length==0) return;
+        EnemyMovement closestEnemy = enemies[0];
 
         for (int i = 1; i < enemies.Length; i++)
         {
-            var distanceFromTarget = Vector3.Distance(transform.position, target.transform.position);
-            if (Vector3.Distance(transform.position, enemies[i].transform.position) < distanceFromTarget)
-            {
-                target = enemies[i];
-            }
+            closestEnemy=GetClosestEnemy(closestEnemy,enemies[i]);
         }
+
+        target = closestEnemy;
+    }
+
+    private EnemyMovement GetClosestEnemy(EnemyMovement targetA,EnemyMovement targetB)
+    {
+        var distanceA = Vector3.Distance(transform.position, targetA.transform.position);
+        var distanceB = Vector3.Distance(transform.position, targetB.transform.position);
+
+        if (distanceA < distanceB)
+        {
+            return targetA;
+        }
+
+        return targetB;
     }
 
     public void FireAtEnemy()
