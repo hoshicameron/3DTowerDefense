@@ -25,14 +25,22 @@ public class GridEditor : MonoBehaviour
 
     private Dictionary<Vector2Int,Waypoint> tileDictionary;
 
-    private Vector2Int directionUp=Vector2Int.up;
-    private Vector2Int directionRight=Vector2Int.right;
-    private Vector2Int directionDown=Vector2Int.down;
-    private Vector2Int directionLeft=Vector2Int.left;
+    private readonly Vector2Int directionUp=Vector2Int.up;
+    private readonly Vector2Int directionRight=Vector2Int.right;
+    private readonly Vector2Int directionDown=Vector2Int.down;
+    private readonly Vector2Int directionLeft=Vector2Int.left;
 
     private bool up, right, down, left;
 
     private GameObject tileModel=null;
+
+    private TileEditor[] tiles;
+    private Waypoint[] waypoints;
+
+    private void Awake()
+    {
+
+    }
 
     private void Start()
     {
@@ -40,8 +48,7 @@ public class GridEditor : MonoBehaviour
     }
     public void UpdateAllTiles()
     {
-        TileEditor[] tiles = FindObjectsOfType<TileEditor>();
-
+        tiles = GetComponentsInChildren<TileEditor>();
         foreach (TileEditor cube in tiles)
         {
             cube.UpdateTile();
@@ -49,10 +56,10 @@ public class GridEditor : MonoBehaviour
     }
 
 
-    public GameObject GetTileModel(Waypoint tile)
+    public GameObject GetTileModel(Waypoint waypoint)
     {
         LoadTiles();
-        CheckNeighbours(tile);
+        CheckNeighbours(waypoint);
         SetTileModel();
 
         return tileModel;
@@ -61,7 +68,8 @@ public class GridEditor : MonoBehaviour
     public void LoadTiles()
     {
         tileDictionary=new Dictionary<Vector2Int, Waypoint>();
-        Waypoint[] waypoints = FindObjectsOfType<Waypoint>();
+
+        waypoints = GetComponentsInChildren<Waypoint>();
         foreach (Waypoint waypoint in waypoints)
         {
             if (tileDictionary.ContainsKey(waypoint.GetGridPosition())) continue;
@@ -71,14 +79,14 @@ public class GridEditor : MonoBehaviour
         }
     }
 
-    public void CheckNeighbours(Waypoint tile)
+    public void CheckNeighbours(Waypoint @from)
     {
         up = right = down = left = false;
 
-        Vector2Int upNeighbourCoordinate = directionUp + tile.GetGridPosition();
-        Vector2Int rightNeighbourCoordinate = directionRight + tile.GetGridPosition();
-        Vector2Int downNeighbourCoordinate = directionDown + tile.GetGridPosition();
-        Vector2Int leftNeighbourCoordinate = directionLeft + tile.GetGridPosition();
+        Vector2Int upNeighbourCoordinate = directionUp + @from.GetGridPosition();
+        Vector2Int rightNeighbourCoordinate = directionRight + @from.GetGridPosition();
+        Vector2Int downNeighbourCoordinate = directionDown + @from.GetGridPosition();
+        Vector2Int leftNeighbourCoordinate = directionLeft + @from.GetGridPosition();
 
         if (tileDictionary.ContainsKey(upNeighbourCoordinate))
         {

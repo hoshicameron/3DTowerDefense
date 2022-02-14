@@ -5,7 +5,8 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     [SerializeField] private float maxHealth;
-
+    [SerializeField] private ParticleSystem hitParticle;
+    [SerializeField] private GameObject deathParticle;
     private float currentHealth;
 
     private void Start()
@@ -15,14 +16,21 @@ public class Health : MonoBehaviour
 
     private void OnParticleCollision(GameObject other)
     {
-
         currentHealth -= 10;
-        print(other.name);
+        // Play hit particle
+        hitParticle.Play();
+
+        // Check for death
         if (currentHealth < 0)
         {
-            Destroy(gameObject);
+            Death();
         }
-        print(other.name);
 
+    }
+
+    private void Death()
+    {
+        Instantiate(deathParticle, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 }

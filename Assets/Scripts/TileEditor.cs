@@ -7,7 +7,6 @@ using UnityEngine;
 public class TileEditor : MonoBehaviour
 {
 
-    [SerializeField] private TextMeshPro positionText;
     [SerializeField] private GridEditor gridEditor;
 
     private Vector3 gridPosition;
@@ -55,7 +54,6 @@ public class TileEditor : MonoBehaviour
         float xPos = waypoint.GetGridPosition().x;
         float zPos = waypoint.GetGridPosition().y;
 
-        positionText.SetText($"{xPos},{zPos}");
         gameObject.name = $"Tile{xPos},{zPos}";
     }
 
