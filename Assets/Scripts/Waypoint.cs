@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Waypoint : MonoBehaviour
 {
-    [SerializeField] private GameObject towerPrefab;
-
     private const int gridSize = 10;
     private Vector2Int gridPosition;
 
@@ -27,17 +25,11 @@ public class Waypoint : MonoBehaviour
             Mathf.RoundToInt(transform.position.z /gridSize));
     }
 
-    private void OnMouseOver()
-    {
-
-    }
-
     private void OnMouseDown()
     {
         if (IsPlaceable)
         {
-            Instantiate(towerPrefab, transform.position, Quaternion.identity);
-            IsPlaceable = false;
+            TowerFactory.Instance.AddTower(this);
         }
     }
 }

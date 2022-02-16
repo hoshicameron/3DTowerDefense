@@ -17,7 +17,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &446278688172406725
 Transform:
@@ -46,7 +46,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaa66e8da6323944eb20ac1730e74feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridEditor: {fileID: 0}
 --- !u!114 &446278688172406726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,7 +58,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf872cacae96def4395b70b0ef0d989c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefab: {fileID: 1602564275656263979, guid: 07b87a3a50996b94897cb4668dc9d377, type: 3}
 --- !u!65 &861894955174645198
 BoxCollider:
   m_ObjectHideFlags: 0

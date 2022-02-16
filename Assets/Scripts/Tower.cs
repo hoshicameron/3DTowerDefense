@@ -8,8 +8,10 @@ public class Tower : MonoBehaviour
     [SerializeField] private float range = 0;
     [SerializeField] private ParticleSystem particleSystem;
 
+
     private EnemyMovement[] enemies;
     private EnemyMovement target;
+    public Waypoint BaseWaypoint { get; set; } = null;
 
     // Update is called once per frame
     void Update()

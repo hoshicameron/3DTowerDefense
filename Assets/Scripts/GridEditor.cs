@@ -23,52 +23,24 @@ public class GridEditor : MonoBehaviour
     [SerializeField] private GameObject downStartModel;
 
 
-    private Dictionary<Vector2Int,Waypoint> tileDictionary;
+    private Dictionary<Vector2Int,Waypoint> tileDictionary=new Dictionary<Vector2Int, Waypoint>();
+    private TileEditor[] tiles;
+    private Waypoint[] waypoints;
 
     private readonly Vector2Int directionUp=Vector2Int.up;
     private readonly Vector2Int directionRight=Vector2Int.right;
     private readonly Vector2Int directionDown=Vector2Int.down;
     private readonly Vector2Int directionLeft=Vector2Int.left;
 
-    private bool up, right, down, left;
-
-    private GameObject tileModel=null;
-
-    private TileEditor[] tiles;
-    private Waypoint[] waypoints;
-
-    private void Awake()
+    private void OnEnable()
     {
-
-    }
-
-    private void Start()
-    {
-        UpdateAllTiles();
-    }
-    public void UpdateAllTiles()
-    {
-        tiles = GetComponentsInChildren<TileEditor>();
-        foreach (TileEditor cube in tiles)
-        {
-            cube.UpdateTile();
-        }
+        UpdateTileDictionary();
     }
 
 
-    public GameObject GetTileModel(Waypoint waypoint)
+    public void UpdateTileDictionary()
     {
-        LoadTiles();
-        CheckNeighbours(waypoint);
-        SetTileModel();
-
-        return tileModel;
-    }
-
-    public void LoadTiles()
-    {
-        tileDictionary=new Dictionary<Vector2Int, Waypoint>();
-
+        tileDictionary.Clear();
         waypoints = GetComponentsInChildren<Waypoint>();
         foreach (Waypoint waypoint in waypoints)
         {
@@ -79,103 +51,42 @@ public class GridEditor : MonoBehaviour
         }
     }
 
-    public void CheckNeighbours(Waypoint @from)
+    public void CheckNeighbors(Vector2Int from,out bool up,out bool right,out bool down,out bool left)
     {
-        up = right = down = left = false;
+        print(from);
+        var upNeighbor = from + directionUp;
+        var rightNeighbor = from + directionRight;
+        var downNeighbor = from + directionDown;
+        var leftNeighbor = from + directionLeft;
 
-        Vector2Int upNeighbourCoordinate = directionUp + @from.GetGridPosition();
-        Vector2Int rightNeighbourCoordinate = directionRight + @from.GetGridPosition();
-        Vector2Int downNeighbourCoordinate = directionDown + @from.GetGridPosition();
-        Vector2Int leftNeighbourCoordinate = directionLeft + @from.GetGridPosition();
-
-        if (tileDictionary.ContainsKey(upNeighbourCoordinate))
-        {
-            up = true;
-        }
-
-        if (tileDictionary.ContainsKey(rightNeighbourCoordinate))
-        {
-            right = true;
-        }
-
-        if (tileDictionary.ContainsKey(downNeighbourCoordinate))
-        {
-            down = true;
-        }
-
-        if (tileDictionary.ContainsKey(leftNeighbourCoordinate))
-        {
-            left = true;
-        }
-
+        up    = tileDictionary.ContainsKey(upNeighbor);
+        right = tileDictionary.ContainsKey(rightNeighbor);
+        down  = tileDictionary.ContainsKey(downNeighbor);
+        left  = tileDictionary.ContainsKey(leftNeighbor);
     }
 
-    public void SetTileModel()
+    public GameObject GetTileModel(bool up, bool right, bool down, bool left)
     {
-        if (up && down && right && left)
-        {
-            tileModel= middleModel;
-        }
-        else if (up && down && !left && !right)
-        {
-            tileModel= upDownModel;
-        }
-        else if (!up && !down && left && right)
-        {
-            tileModel= leftRightModel;
-        }
-        else if (!up && down && !left && right)
-        {
-            tileModel= upLeftCornerModel;
-        }
-        else if (!up && down && left && !right)
-        {
-            tileModel= upRightCornerModel;
-        }
-        else if (up && !down && !left && right)
-        {
-            tileModel= downLeftCornerModel;
-        }
-        else if (up && !down && left && !right)
-        {
-            tileModel= downRightCornerModel;
-        }
-        else if (up && down && !left && right)
-        {
-            tileModel= branchUpDownRightModel;
-        }
-        else if (up && down && left && !right)
-        {
-            tileModel= branchUpDownLeftModel;
-        }
-        else if (up && !down && left && right)
-        {
-            tileModel= branchLeftRightUpModel;
-        }
-        else if (!up && down && left && right)
-        {
-            tileModel= branchLeftRightDownModel;
-        }
-        else if (!up && down && !left && !right)
-        {
-            tileModel= upStartModel;
-        }
-        else if (up && !down && !left && !right)
-        {
-            tileModel= downStartModel;
-        }
-        else if (!up && !down && !left && right)
-        {
-            tileModel= leftStartModel;
-        }
-        else if (!up && !down && left && !right)
-        {
-            tileModel= rightStartModel;
-        }
-        else
-        {
-            tileModel = middleModel;
-            print("No Suitable Model Exists");
-        }
+        print($"{up},{right},{down},{left}");
+
+        if (up && down && right && left)           return middleModel;
+        else if (up && down && !left && !right)    return upDownModel;
+        else if (!up && !down && left && right)    return leftRightModel;
+        else if (!up && down && !left && right)    return upLeftCornerModel;
+        else if (!up && down && left && !right)    return upRightCornerModel;
+        else if (up && !down && !left && right)    return downLeftCornerModel;
+        else if (up && !down && left && !right)    return downRightCornerModel;
+        else if (up && down && !left && right)     return branchUpDownRightModel;
+        else if (up && down && left && !right)     return branchUpDownLeftModel;
+        else if (up && !down && left && right)     return branchLeftRightUpModel;
+        else if (!up && down && left && right)     return branchLeftRightDownModel;
+        else if (!up && down && !left && !right)   return upStartModel;
+        else if (up && !down && !left && !right)   return downStartModel;
+        else if (!up && !down && !left && right)   return leftStartModel;
+        else if (!up && !down && left && !right)   return rightStartModel;
+
+        print("No Suitable Model Exists");
+        return null;
+
     }
 }

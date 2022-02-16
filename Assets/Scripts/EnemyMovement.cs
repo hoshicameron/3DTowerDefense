@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
+   [SerializeField] private GameObject endPathExplosion = null;
    [SerializeField] private float speed;
+
 
    private List<Waypoint> path;
    private int index=1;
@@ -26,22 +28,29 @@ public class EnemyMovement : MonoBehaviour
 
    private void Move()
    {
-      if (index == path.Count ) return;
+      if (index == path.Count)
+      {
+         Instantiate(endPathExplosion, new Vector3(transform.position.x,5,transform.position.z), Quaternion.identity);
+         Destroy(gameObject);
+      } else
+      {
+         float step = speed * Time.deltaTime;
 
-      float step = speed * Time.deltaTime;
-
-      Vector3 destinationPosition = new Vector3(
-         path[index].transform.position.x,
-         transform.position.y,
-         path[index].transform.position.z
+         Vector3 destinationPosition = new Vector3(
+            path[index].transform.position.x,
+            transform.position.y,
+            path[index].transform.position.z
          );
 
-      transform.position=Vector3.MoveTowards(transform.position, destinationPosition, step);
+         transform.position=Vector3.MoveTowards(transform.position, destinationPosition, step);
 
-      if (Vector3.Distance(transform.position, destinationPosition) < Mathf.Epsilon)
-      {
-         index++;
+         if (Vector3.Distance(transform.position, destinationPosition) < Mathf.Epsilon)
+         {
+            index++;
+         }
       }
+
+
    }
 
    private IEnumerator MoveRoutine(float delay)

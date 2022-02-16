@@ -14,7 +14,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5834178754371742492
 Transform:
@@ -39,6 +39,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5834178754371742492}
     m_Modifications:
+    - target: {fileID: -8848437439432763094, guid: 6ca9d0eaad8233d438de7760021ca249, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6ca9d0eaad8233d438de7760021ca249, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -83,9 +87,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2287223201522926096, guid: 6ca9d0eaad8233d438de7760021ca249, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -1499549837338632917, guid: 6ca9d0eaad8233d438de7760021ca249, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6ca9d0eaad8233d438de7760021ca249, type: 3}
       propertyPath: m_Name
       value: tile_crystal
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6ca9d0eaad8233d438de7760021ca249, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9053023591900777244, guid: 6ca9d0eaad8233d438de7760021ca249, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ca9d0eaad8233d438de7760021ca249, type: 3}

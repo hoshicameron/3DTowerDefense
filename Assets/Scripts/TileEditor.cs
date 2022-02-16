@@ -7,46 +7,46 @@ using UnityEngine;
 public class TileEditor : MonoBehaviour
 {
 
-    [SerializeField] private GridEditor gridEditor;
+    private GridEditor gridEditor;
 
-    private Vector3 gridPosition;
-    private Vector3 currentPosition;
+    private Vector3 tilePosition;
     private Waypoint waypoint;
     private int gridSize;
-    private int currentPrefabID;
+    private Vector3 currentPosition = Vector3.zero;
 
-    private GameObject tileModel=null;
+    private bool up=false;
+    private bool right=false;
+    private bool down=false;
+    private bool left=false;
 
-
-    private void Start()
+    private void OnEnable()
     {
-        currentPosition = transform.position;
+        gridEditor = FindObjectOfType<GridEditor>();
         waypoint = GetComponent<Waypoint>();
         gridSize = waypoint.GetGridSize();
 
-        CleanGameObject();
-        UpdateLable();
+        gridEditor.UpdateTileDictionary();
+        UpdateTile();
     }
 
-    private void CleanGameObject()
-    {
-        // Create Fresh clone
-        for (int i = 1; i < transform.childCount; i++)
-        {
-            DestroyImmediate(transform.GetChild(i).gameObject);
-        }
-    }
+
 
     void Update()
     {
-        if (Vector3.Distance(transform.position, currentPosition) > Mathf.Epsilon)
+
+        if (transform.position!=currentPosition)
         {
-            SnapToGrid();
-            UpdateLable();
+            currentPosition = transform.position;
             UpdateTile();
         }
 
+    }
 
+    private void UpdateTile()
+    {
+        SnapToGrid();
+        UpdateLable();
+        SetTileModel();
     }
 
     private void UpdateLable()
@@ -59,19 +59,31 @@ public class TileEditor : MonoBehaviour
 
     private void SnapToGrid()
     {
-        gridPosition = new Vector3(
+        tilePosition = new Vector3(
             waypoint.GetGridPosition().x*gridSize
             ,transform.position.y,
             waypoint.GetGridPosition().y*gridSize);
-        transform.position = gridPosition;
+        transform.position = tilePosition;
     }
 
-    public void UpdateTile()
+    public void SetTileModel()
     {
-        GameObject tilePrefab = gridEditor.GetTileModel(waypoint);
+        gridEditor.CheckNeighbors(waypoint.GetGridPosition(),out up,out right,out down,out left);
+
+        GameObject tilePrefab = gridEditor.GetTileModel(up, right, down, left);
+
         if (tilePrefab != null)
         {
-            if (tileModel != null)
+            if (transform.childCount > 0)
+            {
+                print("Destroy tile");
+                DestroyImmediate(transform.GetChild(0).gameObject);
+            }
+
+            Instantiate(tilePrefab, transform.position,tilePrefab.transform.rotation, transform);
+
+
+            /*if (tileModel != null)
             {
                 if (currentPrefabID != tilePrefab.GetInstanceID())
                 {
@@ -83,7 +95,7 @@ public class TileEditor : MonoBehaviour
             {
                 tileModel = Instantiate(tilePrefab, transform.position,tilePrefab.transform.rotation, transform);
                 currentPrefabID = tilePrefab.GetInstanceID();
-            }
+            }*/
         }
     }
 }
