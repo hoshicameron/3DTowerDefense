@@ -9,14 +9,19 @@ public class Health : MonoBehaviour
     [SerializeField] private GameObject deathParticle;
     private float currentHealth;
 
-    private void Start()
+    private void OnEnable()
     {
         currentHealth = maxHealth;
     }
 
     private void OnParticleCollision(GameObject other)
     {
-        currentHealth -= 10;
+        int appliedDamage = 0;
+        if (other.CompareTag("Flame"))        appliedDamage = 1;
+        else if(other.CompareTag("Cannon"))    appliedDamage = 10;
+
+
+        currentHealth -= appliedDamage;
         // Play hit particle
         hitParticle.Play();
 
@@ -30,7 +35,8 @@ public class Health : MonoBehaviour
 
     private void Death()
     {
-        Instantiate(deathParticle, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        GameObject deathVFX=PoolManager.Instance.ReuseObject(deathParticle, transform.position, Quaternion.identity);
+        deathVFX.SetActive(true);
+        gameObject.SetActive(false);
     }
 }

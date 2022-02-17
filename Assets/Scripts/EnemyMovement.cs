@@ -23,6 +23,8 @@ public class EnemyMovement : MonoBehaviour
 
    private void Update()
    {
+      if(GameManager.Instance.IsGameEnded)   return;
+
       Move();
    }
 
@@ -30,8 +32,10 @@ public class EnemyMovement : MonoBehaviour
    {
       if (index == path.Count)
       {
-         Instantiate(endPathExplosion, new Vector3(transform.position.x,5,transform.position.z), Quaternion.identity);
-         Destroy(gameObject);
+         GameObject endPathVFX = PoolManager.Instance.ReuseObject(endPathExplosion,
+            new Vector3(transform.position.x, 5, transform.position.z), Quaternion.identity);
+         endPathVFX.SetActive(true);
+         gameObject.SetActive(false);
       } else
       {
          float step = speed * Time.deltaTime;

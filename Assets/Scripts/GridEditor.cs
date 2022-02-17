@@ -53,7 +53,6 @@ public class GridEditor : MonoBehaviour
 
     public void CheckNeighbors(Vector2Int from,out bool up,out bool right,out bool down,out bool left)
     {
-        print(from);
         var upNeighbor = from + directionUp;
         var rightNeighbor = from + directionRight;
         var downNeighbor = from + directionDown;
@@ -67,7 +66,6 @@ public class GridEditor : MonoBehaviour
 
     public GameObject GetTileModel(bool up, bool right, bool down, bool left)
     {
-        print($"{up},{right},{down},{left}");
 
         if (up && down && right && left)           return middleModel;
         else if (up && down && !left && !right)    return upDownModel;

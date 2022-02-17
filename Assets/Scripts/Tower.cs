@@ -6,7 +6,8 @@ public class Tower : MonoBehaviour
 {
     [SerializeField] private Transform objectToPan;
     [SerializeField] private float range = 0;
-    [SerializeField] private ParticleSystem particleSystem;
+    [SerializeField] private ParticleSystem[] particleSystems;
+    [SerializeField] private GameObject towerLight;
 
 
     private EnemyMovement[] enemies;
@@ -16,7 +17,15 @@ public class Tower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (target == null)
+        if(GameManager.Instance.IsGameEnded)    return;
+
+        FindAndDestroy();
+    }
+
+    private void FindAndDestroy()
+    {
+        if (target == null || !target.gameObject.activeSelf ||
+            Vector3.Distance(transform.position, target.transform.position) > range)
         {
             Shoot(false);
 
@@ -69,12 +78,17 @@ public class Tower : MonoBehaviour
 
     private void Shoot(bool active)
     {
-        var emission = particleSystem.emission;
-        emission.enabled = active;
+        if (towerLight)    towerLight.SetActive(active);
+        foreach (ParticleSystem particleSystem in particleSystems)
+        {
+            var emission = particleSystem.emission;
+            emission.enabled = active;
+        }
+
     }
 
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()
     {
         Gizmos.DrawSphere(transform.position,range);
-    }
+    }*/
 }

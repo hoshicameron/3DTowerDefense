@@ -76,7 +76,6 @@ public class TileEditor : MonoBehaviour
         {
             if (transform.childCount > 0)
             {
-                print("Destroy tile");
                 DestroyImmediate(transform.GetChild(0).gameObject);
             }
 

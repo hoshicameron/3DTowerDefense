@@ -7,6 +7,7 @@ public class PathFinder : MonoBehaviour
 {
     [SerializeField] private Waypoint startWaypoin;
     [SerializeField] private Waypoint endWaypoin;
+    [SerializeField] private GameObject pathMark;
 
 
     private Dictionary<Vector2Int, Waypoint> gridDictionary;
@@ -15,6 +16,7 @@ public class PathFinder : MonoBehaviour
     private List<Waypoint> path;
 
 
+    private bool isPathVisualizes = false;
 
     private void Awake()
     {
@@ -23,6 +25,24 @@ public class PathFinder : MonoBehaviour
         path = new List<Waypoint>();
     }
 
+    private void Update()
+    {
+        if (path.Count > 0 && !isPathVisualizes)
+        {
+            VisualizePath();
+        }
+    }
+
+    private void VisualizePath()
+    {
+        foreach (Waypoint waypoint in path)
+        {
+            GameObject mark= PoolManager.Instance.ReuseObject(pathMark, waypoint.transform.position, Quaternion.identity);
+            mark.SetActive(true);
+        }
+
+        isPathVisualizes = true;
+    }
 
     public List<Waypoint> GetPath()
     {

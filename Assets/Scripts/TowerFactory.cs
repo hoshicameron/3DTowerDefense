@@ -8,22 +8,24 @@ public class TowerFactory : SingletonMonoBehaviour<TowerFactory>
     [SerializeField] private Tower towerPrefab;
 
     private Queue<Tower>towerQueue=new Queue<Tower>();
-    public void AddTower(Waypoint baseWaypoint)
+    public void AddTower(Waypoint baseWaypoint, Vector3 position)
     {
         int towerCount = towerQueue.Count;
 
+
         if (towerCount < towerLimit)
         {
-            InstantiateNewTower(baseWaypoint);
+            InstantiateNewTower(baseWaypoint,position);
         } else
         {
-            MoveExistingTower(baseWaypoint);
+            MoveExistingTower(baseWaypoint,position);
         }
     }
 
-    private void InstantiateNewTower(Waypoint baseWaypoint)
+    private void InstantiateNewTower(Waypoint baseWaypoint, Vector3 position)
     {
-        Tower tower=Instantiate(towerPrefab, baseWaypoint.transform.position, Quaternion.identity,transform);
+
+        Tower tower=Instantiate(towerPrefab,position , Quaternion.identity,transform);
         baseWaypoint.IsPlaceable = false;
 
         tower.BaseWaypoint = baseWaypoint;
@@ -31,11 +33,11 @@ public class TowerFactory : SingletonMonoBehaviour<TowerFactory>
         towerQueue.Enqueue(tower);
     }
 
-    private void MoveExistingTower(Waypoint baseWaypoint)
+    private void MoveExistingTower(Waypoint baseWaypoint,Vector3 position)
     {
         Tower tower = towerQueue.Dequeue();
 
-        tower.transform.position = baseWaypoint.transform.position;
+        tower.transform.position = position;
         tower.transform.rotation=Quaternion.identity;
 
         // free up the tile

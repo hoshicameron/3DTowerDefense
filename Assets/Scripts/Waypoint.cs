@@ -29,7 +29,9 @@ public class Waypoint : MonoBehaviour
     {
         if (IsPlaceable)
         {
-            TowerFactory.Instance.AddTower(this);
+            var position = transform.position;
+            Vector3 towerPosition = new Vector3(position.x, position.y + 2,position.z);
+            TowerFactory.Instance.AddTower(this,towerPosition);
         }
     }
 }
