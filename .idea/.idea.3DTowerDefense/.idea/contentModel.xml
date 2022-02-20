@@ -11,6 +11,14 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Audio" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+            <e p="SceneSoundsItem.cs" t="Include" />
+            <e p="SO_SceneSoundsList.cs" t="Include" />
+            <e p="SO_SoundList.cs" t="Include" />
+            <e p="Sound.cs" t="Include" />
+            <e p="SoundItem.cs" t="Include" />
+          </e>
           <e p="Base.cs" t="Include" />
           <e p="Enemy" t="Include">
             <e p="EnemyMovement.cs" t="Include" />

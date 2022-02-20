@@ -97,6 +97,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 4.31
       objectReference: {fileID: 0}
+    - target: {fileID: 3282226791657376906, guid: 4ad20d85b6a85784aaeee3d9756c7516, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0abae648713cfd342afbb2de2982d2a1, type: 3}
     - target: {fileID: 7220586763604730020, guid: 4ad20d85b6a85784aaeee3d9756c7516, type: 3}
       propertyPath: maxHealth
       value: 100
@@ -104,6 +108,10 @@ PrefabInstance:
     - target: {fileID: 7220586763604730020, guid: 4ad20d85b6a85784aaeee3d9756c7516, type: 3}
       propertyPath: deathScore
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 7220586763604730020, guid: 4ad20d85b6a85784aaeee3d9756c7516, type: 3}
+      propertyPath: explosionSoundEffect
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7220586763604730040, guid: 4ad20d85b6a85784aaeee3d9756c7516, type: 3}
       propertyPath: speed

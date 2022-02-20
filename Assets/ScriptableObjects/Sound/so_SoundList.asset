@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a7e2acac93be8940a8a595c96ba7aa6, type: 3}
+  m_Name: so_SoundList
+  m_EditorClassIdentifier: 
+  soundDetails:
+  - soundName: 0
+    soundClip: {fileID: 8300000, guid: d286cf7ffb5801b44aa1fb3ecbe77350, type: 3}
+    soundDescription: Plays when enemy get hiited
+    soundPitchRandomVariationMin: 0.388
+    soundPitchRandomVariationMax: 1.139
+    soundVolume: 0.559
+  - soundName: 1
+    soundClip: {fileID: 8300000, guid: 8bdf4d1b9368aa345af0659665514380, type: 3}
+    soundDescription: Plays when enemy get hiited
+    soundPitchRandomVariationMin: 0.32
+    soundPitchRandomVariationMax: 0.887
+    soundVolume: 0.409
+  - soundName: 2
+    soundClip: {fileID: 8300000, guid: bf887f2d7b2a9f648a6582e58522a9f4, type: 3}
+    soundDescription: Plays when enemy get hiited
+    soundPitchRandomVariationMin: 0.495
+    soundPitchRandomVariationMax: 1.265
+    soundVolume: 0.734
+  - soundName: 3
+    soundClip: {fileID: 8300000, guid: dd874acedc663e74c932218105785388, type: 3}
+    soundDescription: Plays when enemy get hiited
+    soundPitchRandomVariationMin: 0.327
+    soundPitchRandomVariationMax: 0.936
+    soundVolume: 0.632
+  - soundName: 4
+    soundClip: {fileID: 8300000, guid: 54a36113920ad5a40a06417b4378a342, type: 3}
+    soundDescription: Plays when enemy get hiited
+    soundPitchRandomVariationMin: 0.488
+    soundPitchRandomVariationMax: 1.265
+    soundVolume: 0.797
+  - soundName: 5
+    soundClip: {fileID: 8300000, guid: 33f88bbaaf954f9489a021d5c0e622d0, type: 3}
+    soundDescription: Plays when enemy get hiited
+    soundPitchRandomVariationMin: 0.292
+    soundPitchRandomVariationMax: 0.971
+    soundVolume: 0.812
+  - soundName: 6
+    soundClip: {fileID: 8300000, guid: 5afaf7f41a920004c925f74df2dcfe5b, type: 3}
+    soundDescription: Plays when enemy get hiited
+    soundPitchRandomVariationMin: 0.292
+    soundPitchRandomVariationMax: 0.971
+    soundVolume: 0.812
+  - soundName: 7
+    soundClip: {fileID: 8300000, guid: cb37227000b0fca419015fad290891a5, type: 3}
+    soundDescription: Plays when enemy get hiited
+    soundPitchRandomVariationMin: 0.292
+    soundPitchRandomVariationMax: 1.076
+    soundVolume: 1
+  - soundName: 8
+    soundClip: {fileID: 8300000, guid: 3b0ca6d034c906842b62460bc1a24aa6, type: 3}
+    soundDescription: Plays when enemy get hiited
+    soundPitchRandomVariationMin: 0.292
+    soundPitchRandomVariationMax: 0.838
+    soundVolume: 1
+  - soundName: 9
+    soundClip: {fileID: 8300000, guid: 2641a3a46a0da6949a674a85c94bcaeb, type: 3}
+    soundDescription: Plays when enemy get hiited
+    soundPitchRandomVariationMin: 0.292
+    soundPitchRandomVariationMax: 1.314
+    soundVolume: 1

@@ -9847,7 +9847,7 @@ ParticleSystem:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -9856,7 +9856,7 @@ ParticleSystem:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 1
-        value: 1
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -9890,7 +9890,7 @@ ParticleSystem:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-  moveWithTransform: 1
+  moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
   randomSeed: 0
@@ -24386,7 +24386,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -24428,7 +24428,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.336
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -24563,8 +24563,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 0
-  hitParticle: {fileID: 198000010861137525}
+  hitParticle:
+  - {fileID: 198000010861137525}
+  - {fileID: 198000012676156937}
+  - {fileID: 198000012406721527}
+  - {fileID: 198000012965725249}
+  - {fileID: 198000013014366173}
   deathParticle: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+  deathScore: 0
+  explosionSoundEffect: 6
 --- !u!1 &8147225786994875839
 GameObject:
   m_ObjectHideFlags: 0

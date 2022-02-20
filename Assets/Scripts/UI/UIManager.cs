@@ -21,9 +21,9 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
 
 
     [Header("Tower Prefab")]
-    [SerializeField] private Tower cannonTower;
-    [SerializeField] private Tower blasterTower;
-    [SerializeField] private Tower balistaTower;
+    [SerializeField] private GameObject cannonTower;
+    [SerializeField] private GameObject blasterTower;
+    [SerializeField] private GameObject balistaTower;
 
     [Header("UI Buttons")]
     [SerializeField] private Button cannonButton;
@@ -79,7 +79,6 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
 
     public void UpdateScoreUI(int score)
     {
-        print("SCore");
         scoreText.SetText($"Score: {score.ToString()}");
     }
 
@@ -113,11 +112,13 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
 
     public void RestartGame()
     {
+        print("restart");
         FadeAndLoadScene(SceneName.Scene_Game.ToString());
     }
 
     public void LoadMainMenu()
     {
+        print("Main menu");
         FadeAndLoadScene(SceneName.Scene_MainMenu.ToString());
     }
 
@@ -131,6 +132,7 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
 
     private IEnumerator FadeAndLoadCoroutine(string sceneName)
     {
+        print("FadeAndLoadCoroutine");
         yield return StartCoroutine(Fade(1f));
 
         SceneManager.LoadSceneAsync(sceneName);
@@ -154,7 +156,7 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
         {
             // ... move the alpha twards it's target alpha
             faderCanvasGroup.alpha = Mathf.MoveTowards(faderCanvasGroup.alpha,
-                finalAlpha, fadeSpeed * Time.deltaTime);
+                finalAlpha, fadeSpeed * Time.unscaledDeltaTime);
 
             // Wait for a frame then continue
             yield return null;
@@ -169,7 +171,7 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
 
     private IEnumerator Start()
     {
-        //Time.timeScale = 0;
+        Time.timeScale = 0;
 
         // Set the initial alpha to start off with a black screen
         faderImage.color=new Color(0f,0f,0f,1f);
@@ -178,7 +180,7 @@ public class UIManager : SingletonMonoBehaviour<UIManager>
         // Once the scene is finished loading, start fading in.
         StartCoroutine(Fade(0f));
 
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSecondsRealtime(1f);
         Time.timeScale = 1;
     }
 }

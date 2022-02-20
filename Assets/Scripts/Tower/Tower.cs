@@ -8,6 +8,7 @@ public class Tower : MonoBehaviour
     [SerializeField] private float range = 0;
     [SerializeField] private ParticleSystem[] particleSystems;
     [SerializeField] private GameObject towerLight;
+    [SerializeField] private AudioSource audioSource;
 
 
     private EnemyMovement[] enemies;
@@ -79,6 +80,12 @@ public class Tower : MonoBehaviour
     private void Shoot(bool active)
     {
         if (towerLight)    towerLight.SetActive(active);
+
+        if (audioSource != null)
+        {
+            if(active && !audioSource.isPlaying)    audioSource.Play();
+            else if(!active && audioSource.isPlaying)          audioSource.Stop();
+        }
         foreach (ParticleSystem particleSystem in particleSystems)
         {
             var emission = particleSystem.emission;
@@ -86,7 +93,6 @@ public class Tower : MonoBehaviour
         }
 
     }
-
     /*private void OnDrawGizmos()
     {
         Gizmos.DrawSphere(transform.position,range);

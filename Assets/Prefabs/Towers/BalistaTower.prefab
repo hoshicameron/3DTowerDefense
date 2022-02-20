@@ -9869,7 +9869,7 @@ GameObject:
   - component: {fileID: 8001623976169954979}
   m_Layer: 0
   m_Name: BalistaTower
-  m_TagString: Untagged
+  m_TagString: Balista
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

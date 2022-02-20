@@ -36,7 +36,7 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
 
       UIManager.Instance.UpdateBaseHealthUI(baseCurrentHealth);
 
-      if (baseCurrentHealth < 0)
+      if (baseCurrentHealth <= 0)
       {
          IsGameEnded = true;
 

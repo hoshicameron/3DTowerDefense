@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 1602564275656263980}
   m_Layer: 0
   m_Name: CannonTower
-  m_TagString: Untagged
+  m_TagString: Cannon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170,7 +170,7 @@ MonoBehaviour:
   particleSystems:
   - {fileID: 3238505163670809873}
   - {fileID: 1844939498713099897}
-  light: {fileID: 0}
+  towerLight: {fileID: 0}
 --- !u!1 &3976735992929362385
 GameObject:
   m_ObjectHideFlags: 0
