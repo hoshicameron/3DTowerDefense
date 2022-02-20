@@ -101,6 +101,10 @@ PrefabInstance:
       propertyPath: maxHealth
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 7220586763604730020, guid: 4ad20d85b6a85784aaeee3d9756c7516, type: 3}
+      propertyPath: deathScore
+      value: 400
+      objectReference: {fileID: 0}
     - target: {fileID: 7220586763604730040, guid: 4ad20d85b6a85784aaeee3d9756c7516, type: 3}
       propertyPath: speed
       value: 25

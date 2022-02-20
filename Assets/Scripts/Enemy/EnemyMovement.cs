@@ -12,10 +12,10 @@ public class EnemyMovement : MonoBehaviour
    private List<Waypoint> path;
    private int index=1;
 
-   private void Start()
+   private void OnEnable()
    {
       path = FindObjectOfType<PathFinder>().GetPath();
-      //StartCoroutine(MoveRoutine(1.50f));
+      index = 1;
 
       transform.position = new Vector3(path[0].transform.position.x, transform.position.y,
          path[0].transform.position.z);

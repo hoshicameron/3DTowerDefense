@@ -11,18 +11,32 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="EnemyMovement.cs" t="Include" />
-          <e p="GameManager.cs" t="Include" />
-          <e p="GridEditor.cs" t="Include" />
-          <e p="Health.cs" t="Include" />
+          <e p="Base.cs" t="Include" />
+          <e p="Enemy" t="Include">
+            <e p="EnemyMovement.cs" t="Include" />
+            <e p="Health.cs" t="Include" />
+          </e>
+          <e p="Managers" t="Include">
+            <e p="GameManager.cs" t="Include" />
+            <e p="PoolManager.cs" t="Include" />
+            <e p="SingletonMonoBehaviour.cs" t="Include" />
+          </e>
           <e p="PathFinder.cs" t="Include" />
-          <e p="PoolManager.cs" t="Include" />
-          <e p="SingletonMonoBehaviour.cs" t="Include" />
           <e p="Spawner.cs" t="Include" />
-          <e p="TileEditor.cs" t="Include" />
-          <e p="Tower.cs" t="Include" />
-          <e p="TowerFactory.cs" t="Include" />
-          <e p="Waypoint.cs" t="Include" />
+          <e p="TargetFrameRate.cs" t="Include" />
+          <e p="Tile" t="Include">
+            <e p="GridEditor.cs" t="Include" />
+            <e p="TileEditor.cs" t="Include" />
+            <e p="Waypoint.cs" t="Include" />
+          </e>
+          <e p="Tower" t="Include">
+            <e p="Tower.cs" t="Include" />
+            <e p="TowerFactory.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="MainMenuUI.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
+          </e>
         </e>
         <e p="Shared" t="Include">
           <e p="Scripts" t="Include">

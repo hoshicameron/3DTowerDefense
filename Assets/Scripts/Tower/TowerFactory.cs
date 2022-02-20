@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class TowerFactory : SingletonMonoBehaviour<TowerFactory>
 {
-    [SerializeField] private int towerLimit = 5;
-    [SerializeField] private Tower towerPrefab;
+    private Tower towerPrefab;
+
+    public Tower TowerPrefab
+    {
+        get { return towerPrefab; }
+        set { towerPrefab = value; }
+    }
 
     private Queue<Tower>towerQueue=new Queue<Tower>();
     public void AddTower(Waypoint baseWaypoint, Vector3 position)
@@ -13,7 +18,7 @@ public class TowerFactory : SingletonMonoBehaviour<TowerFactory>
         int towerCount = towerQueue.Count;
 
 
-        if (towerCount < towerLimit)
+        if (towerCount < GameManager.Instance.MaxAllowedTower)
         {
             InstantiateNewTower(baseWaypoint,position);
         } else
@@ -24,6 +29,7 @@ public class TowerFactory : SingletonMonoBehaviour<TowerFactory>
 
     private void InstantiateNewTower(Waypoint baseWaypoint, Vector3 position)
     {
+        if(towerPrefab==null) return;
 
         Tower tower=Instantiate(towerPrefab,position , Quaternion.identity,transform);
         baseWaypoint.IsPlaceable = false;
